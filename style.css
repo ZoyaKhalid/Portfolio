@@ -36,13 +36,6 @@ body {
   display: flex;
   gap: 1.5rem;
 }
-/* .nav-links a {
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s;
-}
-.nav-links a:hover {
-  color: #FF6584; /* contrast */
 
 .nav-links a {
   text-decoration: none;
@@ -107,7 +100,7 @@ body {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: url("bg.jpg") no-repeat center center/cover;
+  background: url("pictures/bg.jpg") no-repeat center center/cover;
   animation: zoomBG 20s ease-in-out infinite alternate;
   z-index: -1;
   filter: brightness(0.6);
