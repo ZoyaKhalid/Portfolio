@@ -3,217 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Zoya's Portfolio</title>
+  <title>Zoya Khalid | UI/UX Designer Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Navbar -->
   <header>
     <nav class="navbar">
       <div class="logo">ZOYA</div>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="Zoya_Khalid_UIUX_Designer_CV.pdf" class="btn-download" download>Download CV</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-text">
       <h1>Hi, I'm <span class="highlight">Zoya Khalid</span></h1>
-      <p>A passionate <span class="highlight">UI/UX Designer & Frontend developer</span></p>
+      <p>A passionate <span class="highlight">UI/UX Designer</span></p>
       <a href="#projects" class="btn">See My Work</a>
     </div>
   </section>
 
-  <!-- About Section -->
-    <section id="about" class="about">
+  <section id="about" class="about">
     <div class="about-container">
-        
-        <!-- Left: Text -->
         <div class="about-text">
-        <h2>About Me</h2>
-        <h3>UI/UX Designer & Frontend Developer</h3>
-        <p>
-            I craft user-friendly, visually appealing designs that merge creativity 
-            with functionality. With a strong background in frontend development, 
-            I bring modern interfaces to life, ensuring smooth and engaging user experiences.
-        </p>
+          <h2>About Me</h2>
+          <h3>UI/UX Designer</h3>
+          <p>
+              I am a Software Engineering student at GIFT University with a focus on creating intuitive and visually polished digital experiences. I specialize in user research, wireframing, and high-fidelity prototyping using Figma. With experience in remote internships, I am dedicated to solving usability issues and maintaining consistent design patterns across web and mobile platforms.
+          </p>
         </div>
 
-        <!-- Right: Image -->
         <div class="about-image">
-        <!-- <img src="Picture.jpeg" alt="About Me"> -->
-        <img src="pictures/about.png" alt="About Me">
-
+          <img src="pictures/about.png" alt="Zoya Khalid - UI/UX Designer">
         </div>
-        
     </div>
-    </section>
+  </section>
 
   <section id="projects" class="projects">
-  <h2 class="section-title">My Projects</h2>
+    <h2 class="section-title">My Projects</h2>
 
-  <div class="projects-container">
-
-    <!-- Project 1 -->
-    <div class="project-card">
-      <img src="pictures/donate-blood.png" alt="Donate Blood">
-      <h3>Donate Blood</h3>
-      <p>Online blood donation platform designed in Figma.</p>
-      <a href="https://www.figma.com/design/VhaFlMan9k7WonwoEaqbBY/DataBase?node-id=0-1&p=f&t=rHHrLs0WtWTpCulf-0" target="_blank" class="btn">See Full Project</a>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="project-card">
-      <img src="pictures/carpool.png" alt="Ride Together">
-      <h3>Ride Together</h3>
-      <p>Carpooling app in Figma for booking & sharing rides.</p>
-      <a href="https://www.figma.com/design/fvEjMINsdyd5wNADTde7kk/SCD-Project?node-id=0-1&p=f&t=Ldu2UbVYd7IlPkpJ-0" target="_blank" class="btn">See Full Project</a>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="project-card">
-      <img src="pictures/spendo.png" alt="Expense Tracker">
-      <h3>Expense Tracker</h3>
-      <p>React Native app for managing daily expenses.</p>
-      <a href="https://github.com/ZoyaKhalid/Spendo" target="_blank" class="btn">See Full Project</a>
-    </div>
-
-    <!-- Hidden More Projects -->
-  <div class="more-projects">
     <div class="projects-container">
       <div class="project-card">
-        <img src="pictures/agency.png" alt="Car Dealer Homepage">
-        <h3>Car Dealership Homepage</h3>
-        <p>Landing page design for car dealership (Figma).</p>
-        <a href="https://www.figma.com/design/YVaxiBEOy91kWUrogOlYQJ/Untitled?node-id=0-1&p=f&t=HuQFT4XZhxxmOWGE-0" target="_blank" class="btn">See Full Project</a>
+        <img src="pictures/donate-blood.png" alt="Donate Blood Website">
+        <h3>DonateBlood</h3>
+        <p>Responsive website UI for donor registration and search.</p>
+        <a href="https://www.figma.com/design/VhaFlMan9k7WonwoEaqbBY/DataBase" target="_blank" class="btn">View in Figma</a>
       </div>
 
       <div class="project-card">
-        <img src="pictures/event.png" alt="Eventify">
-        <h3>Eventify</h3>
-        <p>Event booking website using React.</p>
-        <a href="https://github.com/ZoyaKhalid/Eventify" target="_blank" class="btn">See Full Project</a>
+        <img src="pictures/cafe.png" alt="CafeGo App">
+        <h3>CafeGo</h3>
+        <p>Coffee ordering app with onboarding and customization flows.</p>
+        <a href="#" class="btn">View Project</a>
       </div>
 
       <div class="project-card">
-        <img src="pictures/cookbook.png" alt="All Recipes Cookbook">
-        <h3>All Recipes Cookbook</h3>
-        <p>Cooking app design in Figma to browse and save recipes.</p>
-        <a href="https://www.figma.com/design/JtzZ5h7lMJt5JqjyhxaCgS/Hci?node-id=0-1&p=f&t=jCAg1cx9kgYKE0D7-0" target="_blank" class="btn">See Full Project</a>
+        <img src="pictures/spendo.png" alt="Spendo App">
+        <h3>Spendo</h3>
+        <p>Expense tracker app with data visualization and accessible contrast.</p>
+        <a href="https://github.com/ZoyaKhalid/Spendo" target="_blank" class="btn">View Code</a>
+      </div>
+
+      <div class="more-projects" id="extra-projects">
+        <div class="projects-container">
+          <div class="project-card">
+            <img src="pictures/event.png" alt="Eventify">
+            <h3>Eventify</h3>
+            <p>Mobile-first UI for event listing and registration flows.</p>
+            <a href="https://github.com/ZoyaKhalid/Eventify" target="_blank" class="btn">View Code</a>
+          </div>
+          <div class="project-card">
+            <img src="pictures/carpool.png" alt="Ride Together">
+            <h3>Ride Together</h3>
+            <p>Carpooling app design focused on ride-sharing journeys.</p>
+            <a href="https://www.figma.com/design/fvEjMINsdyd5wNADTde7kk/SCD-Project" target="_blank" class="btn">View Figma</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- View More Button -->
-  <div class="view-more-wrapper">
-    <button id="viewMoreBtn" class="btn view-more">View More Projects</button>
-  </div>
-</section>
+    <div class="view-more-wrapper">
+      <button id="viewMoreBtn" class="btn-outline">View More Projects</button>
+    </div>
+  </section>
 
-  <!-- Contact Section
   <section id="contact" class="contact">
     <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required/>
-      <input type="email" placeholder="Your Email" required/>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section> -->
+    <p class="contact-intro">Let's connect and collaborate on your next design project!</p>
 
-  <!-- Contact Section -->
-<section id="contact" class="contact">
-  <h2>Contact Me</h2>
-  <p class="contact-intro">
-    Let's connect and collaborate! <br>
-    Feel free to reach out anytime. Drop me a line at my given email if you have a project and you think I'd be a good fit for.
-  </p>
-
-  <!-- Email Box -->
-    <a href="mailto:zoya.khaild923@gmail.com" class="email-box">
-        <div class="email-box">
-        <div class="icon-circle">
-            &#9993;
-        </div>
+    <a href="mailto:zoya.khalid923@gmail.com" class="email-box">
+        <div class="icon-circle">&#9993;</div>
         <div class="email-info">
             <h3>Email</h3>
             <p>zoya.khalid923@gmail.com</p>
         </div>
-        </div>
-    </a>    
+    </a>      
 
-  <!-- Social Links -->
     <div class="social-links">
-    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" class="social-icon">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a href="https://www.instagram.com/zoyakhalid16/" target="_blank" class="social-icon">
-        <i class="fab fa-instagram"></i>
-    </a>
-    <a href="mailto:zoya.khaild9213@gmail.com" class="social-icon">
-        <i class="fas fa-envelope"></i>
-    </a>
-    <a href="https://www.behance.net/zoyakhalid923" target="_blank" class="social-icon">
-        <i class="fab fa-behance"></i>
-    </a>
+      <a href="https://www.linkedin.com/in/zoya-khalid-5293a3310" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.behance.net/zoyakhalid923" target="_blank" class="social-icon"><i class="fab fa-behance"></i></a>
+      <a href="https://www.instagram.com/zoyakhalid16/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
     </div>
-</section>
+  </section>
 
-  <!-- Footer -->
   <footer>
-  <div class="footer-container">
-    <h3 class="footer-logo">Zoya</h3>
-    <ul class="footer-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <p>© 2025 MyPortfolio. Built with ❤️ by Zoya.</p>
-  </div>
-</footer>
+    <div class="footer-container">
+      <h3 class="footer-logo">ZOYA</h3>
+      <p>© 2026 Portfolio. Built with ❤️ by Zoya Khalid.</p>
+    </div>
+  </footer>
 
-  <!-- ✅ Scroll to Top Button -->
-  <!-- <div id="scrollTopBtn">▲</div> -->
   <div id="scrollTopBtn"><i class="fas fa-arrow-up"></i></div> 
 
-  <!-- Script -->
-  <script>
-    const scrollBtn = document.getElementById("scrollTopBtn");
-
-    // Show button when scrolling down
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 300) {
-        scrollBtn.classList.add("show");
-      } else {
-        scrollBtn.classList.remove("show");
-      }
-    });
-
-    // Scroll to top on click
-    scrollBtn.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-
-    
-    const viewMoreBtn = document.getElementById("viewMoreBtn");
-    const moreProjects = document.querySelector(".more-projects");
-
-    viewMoreBtn.addEventListener("click", () => {
-        moreProjects.classList.toggle("show");
-        viewMoreBtn.textContent = 
-        moreProjects.classList.contains("show") ? "Show Less" : "View More Projects";
-    });
-
-
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
